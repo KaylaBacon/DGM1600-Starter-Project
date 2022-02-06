@@ -1,0 +1,128 @@
+:root {
+    --nested-background-color: #f4f1de;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e07a5f;
+    margin: 0;
+    font: 16px Noto Sans, sans-serif;
+    font-weight: 100;
+}
+#my-bio {
+   display: flex;
+   justify-content: space-around;
+   color: #3d405b;
+   flex-grow: 1;
+   align-items: stretch;
+    
+}
+
+#excited-to-learn {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: wheat;
+    
+}
+.name-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.text-bucket {
+    background-color: #3d405b;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: wheat;   
+    border-radius: 10px;
+}
+
+main {
+    align-self: center;
+    margin: 10px;
+    max-width: 1000px;
+}
+
+#my-bio > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#bio .text-bucket {
+    flex-grow: 1;
+}
+#kayla-photo {
+    width: auto;
+    max-height: 236px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #f4f1de;
+    padding: 10px;
+}
+#logo {
+    max-height: 60px;
+    width: auto;
+}
+
+.badge {
+    background-color: #f4f1de;
+    border: 10px solid wheat;
+    height: 200px; 
+    width: 200px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.badge > img {
+    max-height: 200px;
+    max-width: 200px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.badge > div {
+   background-color: #00000090;
+    color: #ffffff;
+    margin: 0 -10px -10px -10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+}
+
+#technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background: #f4f1de;
+    padding: 30px;
+    color: #3d405b;
+}
+
+h1 {
+    font-size: 30px;
+}
